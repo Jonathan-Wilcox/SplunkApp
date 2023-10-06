@@ -1,52 +1,52 @@
 {
-  "schemaVersion": "2.0.0", 
+  "schemaVersion": "2.0.0",
   "info": {
-    "title": "Delphix Dashboards", 
+    "title": "Delphix Dashboards",
     "id": {
-      "group": null, 
-      "name": "delphix_dashboards", 
+      "group": null,
+      "name": "delphix_dashboards",
       "version": "1.0.4"
-    }, 
+    },
     "author": [
       {
-        "name": "Jonathan Wilcox", 
-        "email": "jonathan.wilcox@delphix.com", 
+        "name": "Jonathan Wilcox",
+        "email": "jonathan.wilcox@delphix.com",
         "company": "Delphix"
       }
-    ], 
-    "releaseDate": null, 
-    "description": "The Delphix Dashboards app is a great starting place to gain insight into the health and performance of your Delphix environment.", 
+    ],
+    "releaseDate": null,
+    "description": "The Delphix Dashboards app is a great starting place to gain insight into the health and performance of your Delphix environment.",
     "classification": {
-      "intendedAudience": null, 
-      "categories": [], 
+      "intendedAudience": null,
+      "categories": [],
       "developmentStatus": null
-    }, 
-    "commonInformationModels": null, 
+    },
+    "commonInformationModels": null,
     "license": {
-      "name": null, 
-      "text": null, 
+      "name": null,
+      "text": null,
       "uri": null
-    }, 
+    },
     "privacyPolicy": {
-      "name": null, 
-      "text": null, 
+      "name": null,
+      "text": null,
       "uri": null
-    }, 
+    },
     "releaseNotes": {
-      "name": null, 
-      "text": null, 
+      "name": null,
+      "text": "./README.md",
       "uri": null
     }
-  }, 
-  "dependencies": null, 
-  "tasks": null, 
-  "inputGroups": null, 
-  "incompatibleApps": null, 
-  "platformRequirements": null, 
+  },
+  "dependencies": null,
+  "tasks": null,
+  "inputGroups": null,
+  "incompatibleApps": null,
+  "platformRequirements": null,
   "supportedDeployments": [
-    "_standalone", 
+    "_standalone",
     "_distributed"
-  ], 
+  ],
   "targetWorkloads": null
 }
 # The following sections can be customized and added to the manifest. For detailed information,
@@ -56,7 +56,7 @@
 # "dependencies": {
 #     "<app-group>:<app-name>": {
 #         "version": "*",
-#         "package": "<source-package-location>",
+#         "package": "<source-package-name>",
 #         "optional": [true|false]
 #     }
 # }
